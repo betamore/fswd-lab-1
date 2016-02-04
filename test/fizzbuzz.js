@@ -9,14 +9,20 @@ describe('fizzBuzz', function() {
 
     // write a couple of your own tests
     // here's an example to get you started:
-    
+
     it('should be [] for 0', function() {
         fizzBuzz(0).should.deep.equal([]);
     });
 
+    it("should be ['FizzBuzz'] for 1", function() {
+        fizzBuzz(1).should.deep.equal(['FizzBuzz']);
+    });
+
+
+
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
-    
+
     // describe('examples from the function description', function() {
     //     [
     //         [0, []],
@@ -29,5 +35,5 @@ describe('fizzBuzz', function() {
     //           });
     //       });
     // });
-       
+
 });

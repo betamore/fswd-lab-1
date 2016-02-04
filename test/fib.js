@@ -14,9 +14,10 @@ describe('fib', function() {
         fib(0).should.equal(0);
     });
 
+
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
-    
+
     // describe('examples from the function description', function() {
     //     [
     //         [0, 0],
@@ -31,5 +32,5 @@ describe('fib', function() {
     // });
 
     // feeling brave? try writing a test for 25 or 50
-    
+
 });

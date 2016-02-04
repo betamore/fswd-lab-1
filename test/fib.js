@@ -48,4 +48,8 @@ describe('fib', function() {
         fib(30).should.equal(832040);
     });
 
+    it('should be 2111485077978050 for 75', function() {
+        fib(75).should.equal(2111485077978050);
+    });
+
 });

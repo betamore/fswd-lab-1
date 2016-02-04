@@ -13,6 +13,18 @@ describe('fizzBuzz', function() {
     it('should be [] for 0', function() {
         fizzBuzz(0).should.deep.equal([]);
     });
+    
+    it("should be ['FizzBuzz', 1] for 2", function() {
+        fizzBuzz(2).should.deep.equal(['FizzBuzz', 1])
+    });
+    
+    it("should be ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz'] for 7", function() {
+        fizzBuzz(7).should.deep.equal(['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz'])
+    });
+    
+    it("should be ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz'] for 16", function() {
+        fizzBuzz(16).should.deep.equal(['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz'])
+    });
 
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description

@@ -10,8 +10,8 @@ describe('fizzBuzz', function() {
     // write a couple of your own tests
     // here's an example to get you started:
     
-    it('should be [] for 0', function() {
-        fizzBuzz(0).should.deep.equal([]);
+    it('should be ["FizzBuzz"] for 0', function() {
+        fizzBuzz(0).should.deep.equal(["FizzBuzz"]);
     });
     
     it("should be ['FizzBuzz', 1] for 2", function() {

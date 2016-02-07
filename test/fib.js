@@ -13,6 +13,37 @@ describe('fib', function() {
     it('should be 0 for 0', function() {
         fib(0).should.equal(0);
     });
+    
+    it('should be 1 for 1', function() {
+        fib(1).should.equal(1);
+    });
+    
+    it('should be 1 for 2', function() {
+        fib(2).should.equal(1);
+    });
+    
+    it('should be 2 for 3', function() {
+        fib(3).should.equal(2);
+    });
+    
+    it('should be 3 for 4', function() {
+        fib(4).should.equal(3);
+    });
+    
+    it('should be 13 for 7', function() {
+        fib(7).should.equal(13);
+    });
+    
+    it('should be 987 for 16', function() {
+        fib(16).should.equal(987);
+    });
+    
+    it('should be 75025 for 25', function() {
+        fib(25).should.equal(75025);
+    });
+    
+   
+   
 
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description

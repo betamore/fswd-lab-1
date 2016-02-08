@@ -12,7 +12,7 @@ describe('fib', function() {
 
     it('should be 0 for 0', function() {
         fib(0).should.equal(0);
-    });
+    }); 
     
     it('should be 1 for 1', function() {
         fib(1).should.equal(1);

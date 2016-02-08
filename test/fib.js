@@ -14,9 +14,24 @@ describe('fib', function() {
         fib(0).should.equal(0);
     });
 
+    it('should be 1 for 1', function() {
+        fib(1).should.equal(1);
+    });
+
+    it('should be 1 for 2', function() {
+        fib(2).should.equal(1);
+    });
+
+    it('should be 13 for 7', function() {
+        fib(7).should.equal(13);
+    });
+
+    it('should be 987 for 16', function() {
+        fib(16).should.equal(987);
+    });
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
-    
+
     // describe('examples from the function description', function() {
     //     [
     //         [0, 0],
@@ -31,5 +46,5 @@ describe('fib', function() {
     // });
 
     // feeling brave? try writing a test for 25 or 50
-    
+
 });

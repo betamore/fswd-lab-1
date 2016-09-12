@@ -1,9 +1,10 @@
 {
-  "name": "fswd-winter-2016-lab-1",
+  "name": "fswd-lab-1",
   "version": "1.0.0",
   "description": "",
   "main": "lib/fswd.js",
   "scripts": {
+    "lint": "eslint . || exit 0",
     "test": "mocha"
   },
   "keywords": [],
@@ -11,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "eslint": "^3.5.0",
+    "mocha": "^3.0.2"
   }
 }

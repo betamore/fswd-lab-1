@@ -9,14 +9,14 @@ Classic programming interview questions!
    Huh? What does that even mean? Short version: you need to create
    a copy of the code on your machine, and "cloning" is git's way of
    doing that.
-   
+
    But where? Well, I like to set up a special directory on my machine
    to hold all my programming projects (`~/Code`). Just open up a terminal
    window and run `mkdir Code` on the prompt (`mkdir` = "Make directory").
    After you have done that, run `cd Code` to change to that directory and
    then run the git clone command.
-3. After cloning, run `cd fswd-winter-2016-lab-1` to change your shell's
-   working directory to your copy of the project.
+3. After cloning, run `cd fswd-lab-1` to change your shell's working
+   directory to your copy of the project.
 4. Run `npm install` to install the node modules for the project, then
    `npm test` to run the tests.
 5. Everything passes! Grab yourself a cookie; you're all done.

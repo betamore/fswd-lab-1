@@ -4,7 +4,7 @@
   "description": "Full Stack Web Development - Lab 1: Testing, FizzBuzz, and Fibonacci",
   "main": "lib/fswd.js",
   "scripts": {
-    "lint": "eslint . || exit 0",
+    "lint": "eslint --ignore-path .gitignore . || exit 0",
     "test": "istanbul cover _mocha"
   },
   "keywords": [],

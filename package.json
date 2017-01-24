@@ -1,19 +1,25 @@
 {
   "name": "fswd-lab-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full Stack Web Development - Lab 1: Testing, FizzBuzz, and Fibonacci",
   "main": "lib/fswd.js",
   "scripts": {
     "lint": "eslint . || exit 0",
     "test": "istanbul cover _mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name" : "David Raynes",
+    "email" : "rayners@gmail.com",
+    "url" : "http://rayn.es"
+  },
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.5.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2"
-  }
+  },
+
+  "private": true
 }

@@ -5,21 +5,22 @@
   "main": "lib/fswd.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
-    "test": "istanbul cover _mocha"
+    "test": "istanbul cover _mocha",
+    "coverage": "opn ./coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": {
-    "name" : "David Raynes",
-    "email" : "rayners@gmail.com",
-    "url" : "http://rayn.es"
+    "name": "David Raynes",
+    "email": "rayners@gmail.com",
+    "url": "http://rayn.es"
   },
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.5.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "opn-cli": "^3.1.0"
   },
-
   "private": true
 }

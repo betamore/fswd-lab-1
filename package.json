@@ -5,7 +5,7 @@
   "main": "lib/fswd.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
-    "test": "nyc mocha",
+    "test": "jest --coverage",
     "coverage": "opn ./coverage/lcov-report/index.html"
   },
   "keywords": [],
@@ -16,10 +16,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.5.0",
     "eslint": "^3.5.0",
-    "mocha": "^3.0.2",
-    "nyc": "^10.3.2",
+    "jest": "^20.0.3",
     "opn-cli": "^3.1.0"
   },
   "private": true

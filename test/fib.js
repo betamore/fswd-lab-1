@@ -2,7 +2,7 @@ var fib = require('../lib/fib');
 
 require('chai').should();
 
-describe('fib', function() {
+describe.only('fib', function() {
     it('should have an example test', function() {
         true.should.equal(true);
     });
@@ -14,9 +14,25 @@ describe('fib', function() {
         fib(0).should.equal(0);
     });
 
+    it('should be 1 for 1', function() {
+        fib(1).should.equal(1);
+    });
+
+    it('should be 1 for 2', function() {
+        fib(2).should.equal(1);
+    });
+
+    it('should be 2 for 3', function() {
+        fib(3).should.equal(2);
+    });
+
+    it('should be ?? for -1', function() {
+      
+    });
+
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
-    
+
     // describe('examples from the function description', function() {
     //     [
     //         [0, 0],
@@ -31,5 +47,5 @@ describe('fib', function() {
     // });
 
     // feeling brave? try writing a test for 25 or 50
-    
+
 });

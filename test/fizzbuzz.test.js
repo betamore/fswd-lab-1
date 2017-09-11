@@ -1,22 +1,22 @@
-var fizzBuzz = require('../lib/fizzbuzz');
+var fizzBuzz = require('fizzbuzz');
 
-require('chai').should();
+require('chai/register-should');
 
 describe('fizzBuzz', function() {
     it('should have an example test', function() {
-        true.should.equal(true);
+        expect(true).toBe(true);
     });
 
     // write a couple of your own tests
     // here's an example to get you started:
-    
+
     it('should be [] for 0', function() {
-        fizzBuzz(0).should.deep.equal([]);
+        expect(fizzBuzz(0)).toEqual([]);
     });
 
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
-    
+
     // describe('examples from the function description', function() {
     //     [
     //         [0, []],
@@ -29,5 +29,5 @@ describe('fizzBuzz', function() {
     //           });
     //       });
     // });
-       
+
 });

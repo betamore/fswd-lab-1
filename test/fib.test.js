@@ -1,11 +1,8 @@
 var fib = require('fib');
 
-// require('chai/register-should');
-
 describe('fib', function() {
     it('should have an example test', function() {
         expect(true).toBe(true);
-        // true.should.equal(true);
     });
 
     // write a couple of your own tests
@@ -13,7 +10,6 @@ describe('fib', function() {
 
     it('should be 0 for 0', function() {
         expect(fib(0)).toEqual(0);
-        // fib(0).should.equal(0);
     });
 
     // when you are feeling confident, uncomment the following tests
@@ -27,7 +23,7 @@ describe('fib', function() {
     //         [16, 987]
     //     ].forEach(function(testValues) {
     //           it('fib(' + testValues[0] + ')', function() {
-    //               fib(testValues[0]).should.equal(testValues[1]);
+    //               expect(fib(testValues[0])).toEqual(testValues[1]);
     //           });
     //       });
     // });

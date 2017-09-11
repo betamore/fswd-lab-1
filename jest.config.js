@@ -6,5 +6,6 @@ module.exports = {
 
   modulePaths: ['<rootDir>/lib/'],
 
-  roots: ['<rootDir>/lib/', '<rootDir>/test/']
+  roots: ['<rootDir>/lib/', '<rootDir>/test/'],
+  testEnvironment: 'node'
 };

@@ -12,20 +12,43 @@ describe('fizzBuzz', function() {
         expect(fizzBuzz(0)).toEqual([]);
     });
 
+    it('should be ["FizzBuzz"] for 1', function() {
+        expect(fizzBuzz(1)).toEqual(['FizzBuzz']);
+    });
+
+    it('should be ["FizzBuzz", 1] for 2', function() {
+        expect(fizzBuzz(2)).toEqual(['FizzBuzz', 1]);
+    });
+
+    it('should be ["FizzBuzz", 1] for 3', function() {
+        expect(fizzBuzz(3)).toEqual(['FizzBuzz', 1, 2]);
+    });
+
+    it('should be ["FizzBuzz", 1] for 4', function() {
+        expect(fizzBuzz(4)).toEqual(['FizzBuzz', 1, 2, 'Fizz']);
+    });
+
+    it('should be ["FizzBuzz", 1] for 5', function() {
+        expect(fizzBuzz(5)).toEqual(['FizzBuzz', 1, 2, 'Fizz', 4]);
+    });
+
+    it('should be ["FizzBuzz", 1] for 6', function() {
+        expect(fizzBuzz(6)).toEqual(['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz']);
+    });
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
 
-    // describe('examples from the function description', function() {
-    //     [
-    //         [0, []],
-    //         [2, ['FizzBuzz', 1]],
-    //         [7, ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz']],
-    //         [16, ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']]
-    //     ].forEach(function(testValues) {
-    //           it('fizzBuzz(' + testValues[0] + ')', function() {
-    //               expect(fizzBuzz(testValues[0])).toEqual(testValues[1]);
-    //           });
-    //       });
-    // });
+    describe('examples from the function description', function() {
+        [
+            [0, []],
+            [2, ['FizzBuzz', 1]],
+            [7, ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz']],
+            [16, ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']]
+        ].forEach(function(testValues) {
+              it('fizzBuzz(' + testValues[0] + ')', function() {
+                  expect(fizzBuzz(testValues[0])).toEqual(testValues[1]);
+              });
+          });
+    });
 
 });

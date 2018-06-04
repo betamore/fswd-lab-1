@@ -1,5 +1,10 @@
-# Full Stack Web Development - Lab 1 #
-## Testing, FizzBuzz, and Fibonacci ##
+
+**Purpose:** To run `node` and `npm` on the command line, learn about `git` and TDD, write JavaScript code, and write tests for that code.
+
+**Goal:** By the end of the lab, you will have downloaded the initial project from GitHub with the `git` command, run `npm` multiple different ways, written JavaScript functions and tests using multiple features of the JavaScript language (`var`, `function`, `if`, `else`, `for`, `return`, arrays, and more), and have at least basic working versions of the FizzBuzz and Fibonacci functions.
+
+# Full Stack Web Development - Lab 1
+## Testing, FizzBuzz, and Fibonacci
 
 These are *classic* programming interview questions!
 
@@ -59,7 +64,7 @@ the `nvm` tool, run `nvm use`.
    `npm test` to run the tests.
 2. Everything passes! Grab yourself a cookie; you're all done.
 3. Yeah, I was kidding. You're not done at all!
-4. Open up `Atom` (or your preferred text editor) and look at the files in the
+4. Open up `Visual Studio Code` (or your preferred text editor) and look at the files in the
    code. Tests are in the `test/` directory and the function skeletons are in
    the `lib/` directory.
 5. The first cases are implemented and tested (`fizzBuzz(0)` and `fib(0)`).

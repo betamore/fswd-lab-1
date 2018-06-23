@@ -17,7 +17,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.0",
     "jest": "^23.0.0",
     "opn-cli": "^3.1.0"
   },

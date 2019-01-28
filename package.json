@@ -1,6 +1,6 @@
 {
   "name": "fswd-lab-1",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Full Stack Web Development - Lab 1: Testing, FizzBuzz, and Fibonacci",
   "main": "lib/fswd.js",
   "scripts": {

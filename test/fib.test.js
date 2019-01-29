@@ -15,18 +15,25 @@ describe('fib', function() {
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
 
-    // describe('examples from the function description', function() {
-    //     [
-    //         [0, 0],
-    //         [2, 1],
-    //         [7, 13],
-    //         [16, 987]
-    //     ].forEach(function(testValues) {
-    //           it('fib(' + testValues[0] + ')', function() {
-    //               expect(fib(testValues[0])).toEqual(testValues[1]);
-    //           });
-    //       });
-    // });
+    describe('examples from the function description', function() {
+        [
+            [0, 0],
+            [2, 1],
+            [7, 13],
+            [16, 987],
+            [20, 6765],
+            [25, 75025],
+            [30, 832040],
+            [35, 9227465],
+            // [40, 102334155],
+            // [45, 1134903170]
+            // [50, 99999999999]
+        ].forEach(function(testValues) {
+              it('fib(' + testValues[0] + ')', function() {
+                  expect(fib(testValues[0])).toEqual(testValues[1]);
+              });
+          });
+    });
 
     // feeling brave? try writing a test for 25 or 50
 

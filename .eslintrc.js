@@ -2,5 +2,13 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ['eslint:recommended']
+  extends: ['eslint:recommended'],
+  overrides: [
+    {
+      files: ["*.test.js"],
+      env: {
+        jest: true
+      }
+    }
+  ]
 };

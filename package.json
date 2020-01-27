@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "test": "jest",
-    "watch-test": "jest --watch",
+    "watch-test": "jest --watchAll",
     "coverage": "opn ./coverage/lcov-report/index.html"
   },
   "keywords": [],
